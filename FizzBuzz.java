@@ -14,7 +14,6 @@ public class FizzBuzz {
     private final Scanner SC = new Scanner(System.in);
     
     public FizzBuzz() {
-        //System.out.print("Input a number: ");
         double num = 0;
         boolean fizzbuzz;
         System.out.print("Input a number: ");
@@ -47,9 +46,7 @@ public class FizzBuzz {
             System.out.print(", ");
         }
     }
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
         new FizzBuzz();
     }
